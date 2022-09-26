@@ -7,10 +7,23 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Juros Simples</a>
-        <a class="nav-link" href="#">Juros Compostos</a>
-     
       </div>
     </div>
   </div>
 </nav>
+<div class="container text-center">
+  <div class="row row-cols-4">
+    <div class="col">
+      <input class="form-check-input" type="radio" name="exampleRadios"  [value]="1" />
+        <label class="form-check-label" for="exampleRadios1">
+          Juros Simples
+        </label>
+    </div>
+<div class="col">
+  <input class="form-check-input" type="radio" name="exampleRadios"  [value]="1" />
+      <label  for="exampleRadios1">
+        Juros Compostos
+      </label>
+    </div>
+  </div>
+</div>
