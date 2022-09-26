@@ -26,6 +26,6 @@
       </label>
     </div>
   </div>
-<div>
-  {{option}}
-</div>
+
+<app-juro-simples-component *ngIf="option == '1'"></app-juro-simples-component>
+<app-juros-composto-component *ngIf="option == '2'"></app-juros-composto-component>
